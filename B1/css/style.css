@@ -22,9 +22,9 @@ h1{
 }
 
 h2{
-clear:both;
-
-margin-top: 40px;
+	clear:both;
+	font-style: italic;
+	margin-top: 40px;
 }
 
 p{
@@ -37,4 +37,18 @@ figure{
 	float: left;
 	width:250px;
 	margin-bottom: 40px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#td-title{
+	background: #808285;
+	border-collapse: collapse;
+}
+
+.odd-row{
+	background: #bfbabe;
 }
