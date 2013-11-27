@@ -3,7 +3,7 @@
 body{
 	font-family: Arial, sans-serif;
 	width: 960px;
-	
+	background: #007eb5;
 	margin: 0 auto;
 }
 
@@ -29,8 +29,10 @@ h2{
 
 p{
 	width: 500px;
-	float:left;
-	
+}
+
+.left{
+float:left;
 }
 
 figure{
@@ -42,6 +44,21 @@ figure{
 table{
 	width: 100%;
 	border-collapse: collapse;
+	text-indent: 10px;
+	border: 1px solid;
+}
+
+table a{
+	text-decoration: none;
+	
+}
+
+a:link{
+	color: black;
+}
+
+a:hover{
+	color: blue;
 }
 
 #td-title{
@@ -49,6 +66,28 @@ table{
 	border-collapse: collapse;
 }
 
+#results-title{
+	text-indent: 90px;
+}
+
+th{
+	text-align: left;
+}
+
+th, td{
+	height: 30px;
+}
+
 .odd-row{
 	background: #bfbabe;
 }
+
+.text-center{
+	text-align: center;
+}
+
+footer{
+	margin: 5px;
+	padding: 5px;
+}
+
