@@ -1,0 +1,40 @@
+
+
+body{
+	font-family: Arial, sans-serif;
+	width: 960px;
+	
+	margin: 0 auto;
+}
+
+#wrapper{
+	background: white;
+	width: 960px;
+	padding: 0 40px;
+	
+}
+
+h1{
+	
+	margin: 0 auto;
+	padding-top: 10px;
+	border-bottom: 2px solid ;
+}
+
+h2{
+clear:both;
+
+margin-top: 40px;
+}
+
+p{
+	width: 500px;
+	float:left;
+	
+}
+
+figure{
+	float: left;
+	width:250px;
+	margin-bottom: 40px;
+}
